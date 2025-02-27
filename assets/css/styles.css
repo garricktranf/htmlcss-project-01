@@ -122,14 +122,16 @@ a {
 
 /*  hero wrap*/
 .hero-wrap {
+    display: flex;
+    align-items: center;
     position: relative;
     height: calc(100vh - 90px);
-    padding-top: 130px;
     margin-bottom: 79px;
     background-color: #E6F0FF;
 }
 
 .hero .info {
+    margin-top: -80px;
     width: 50.4%;
 }
 
@@ -221,6 +223,7 @@ a {
     margin-bottom: 41px;
     padding-top: 93px;
     padding-bottom: 79px;
+    scroll-margin-top: 100px;
 }
 
 .guides .sub-title {
@@ -313,6 +316,7 @@ a {
     padding-top: 110px;
     padding-bottom: 110px;
     background: #F5FAFE;
+    scroll-margin-top: 50px;
 }
 
 .product .sub-title {
@@ -421,7 +425,7 @@ a {
     margin-bottom: 90px;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    scroll-margin-top: 100px;
 }
 
 .stats .content {
@@ -570,6 +574,7 @@ a {
 /* Subscription */
 .subcription {
     margin-bottom: 55px;
+    scroll-margin-top: 100px;
 }
 
 .subcription .body {
