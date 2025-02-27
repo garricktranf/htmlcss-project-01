@@ -12,27 +12,33 @@
 </head>
 
 <body>
-  <wrapper">
+  <wrapper id="home"">
     <!-- Header -->
-    <header class="header">
+    <header class=" header-sticky">
+    <div class="content">
+      <nav class="navbar">
+        <!-- logo -->
+        <a href="#"><img src="./assets/img/logo.svg" alt="Besnik."></a>
+        <!-- navigation -->
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- action -->
+        <div class="actions">
+          <a class="btn action-btn-1" href="#!">Sign in</a>
+          <a class="btn action-btn-2" href="#!">Sign up</a>
+        </div>
+      </nav>
+    </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="hero-wrap">
       <div class="content">
-        <nav class="navbar">
-          <!-- logo -->
-          <img src="./assets/img/logo.svg" alt="Besnik.">
-          <!-- navigation -->
-          <ul>
-            <li><a href="#!">Home</a></li>
-            <li><a href="#!">Features</a></li>
-            <li><a href="#!">Services</a></li>
-            <li><a href="#!">Resources</a></li>
-            <li><a href="#!">Contact</a></li>
-          </ul>
-          <!-- action -->
-          <div class="actions">
-            <a class="btn action-btn-1" href="#!">Sign in</a>
-            <a class="btn action-btn-2" href="#!">Sign up</a>
-          </div>
-        </nav>
         <div class="hero">
           <div class="info">
             <p class="sub-title">Welcome to Besnik Agency</p>
@@ -43,7 +49,7 @@
           <img src="./assets/img/hero-img.svg" alt="Discover a place you'll love to live." class="hero-img">
         </div>
       </div>
-    </header>
+    </div>
 
     <!-- clients -->
     <div class="client">
@@ -76,7 +82,7 @@
     </div>
 
     <!-- guides -->
-    <div class="guides">
+    <div id="services" class="guides">
       <div class="content">
         <h2 class="sub-title">How its works?</h2>
         <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one place.</p>
@@ -114,7 +120,7 @@
     </div>
 
     <!-- Product -->
-    <div class="product">
+    <div id="features" class="product">
       <div class="content">
         <header class="head">
           <h2 class="sub-title">Featured Properties</h2>
@@ -180,7 +186,7 @@
     </div>
 
     <!-- stat -->
-    <div class="stats">
+    <div id="resources" class="stats">
       <div class="content">
         <div class="row">
           <div class="img-block">
@@ -258,7 +264,7 @@
     </div>
 
     <!-- subscription -->
-    <div class="subcription">
+    <div id="contact" class="subcription">
       <div class="content">
         <div class="body">
           <div class="info">
@@ -321,7 +327,7 @@
         </div>
       </div>
     </footer>
-    </wrapper>
+  </wrapper>
 </body>
 
 </html>
