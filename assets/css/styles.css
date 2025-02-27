@@ -651,6 +651,7 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 8px;
+    background-color: #F9F9F9;
 }
 
 .footer .social-link:hover {
